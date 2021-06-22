@@ -1,0 +1,53 @@
+@import '../../base.scss';
+
+.sidebarContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: $color_white_1;
+    padding: 10px 0px;
+}
+
+.Title-Sidebar {
+    color: $color_blue_1;
+    font-family: $font_roboto;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box-Sidebar {
+    border-radius: 10px;
+    border: 1px solid $color_white_2;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.box-Sidebar p {
+    margin: 0px !important;
+    font-family: $font_roboto;
+
+}
+
+.titleContainer {
+    border-bottom: 2px solid $color_white_2;
+    margin-bottom: 25px;
+}
+
+.Logo-Menu {
+    font-size: 30px;
+    color: $color_blue_1;
+}
+
+.Title-Menu {
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: $font_roboto;
+}
+
+.Logo-Menu-2 {
+    font-size: 20px
+}
+
